@@ -18,8 +18,8 @@ body {
 } */
 
 .weight-count {
-  opacity: 80%;
-  color: cornsilk;
+  
+  color: black;
   font-size: 80px;
   text-align: center;
 }
@@ -29,8 +29,8 @@ body {
 } */
 
 .rep-count {
-  opacity: 80%;
-  color: cornsilk;
+  
+  color: black;
   font-size: 80px;
   text-align: center;
 }
