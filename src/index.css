@@ -4,34 +4,40 @@ body {
   margin: 0px;
 }
 
-.calculator-container {
+/* .calculator-container {
   border-style: solid;
   border-radius: 1vw;
   margin: auto;
   width: 80vw;
   text-align: center;
   background-color: #746D75;
-}
+} */
 
 .orm-label {
   text-align: center;
 }
 
-/* .weight-container {
-  
-} */
+.weight-container {
+  border-style: solid;
+  border-radius: 1vw;
+  margin: auto;
+  padding: 2vw;
+  width: 80vw;
+  text-align: center;
+  background-color: #746D75;
+}
 
 .weight-count {
   
   color: black;
-  font-size: 80px;
+  font-size: 1px;
   text-align: center;
 }
 
 .weight-input {
   /* Size */
-  width: 15vw;
-  height: 8vw;
+  width: 50%;
+  height: 10vw;
   
 
   /* Appearance */
@@ -42,13 +48,13 @@ body {
 
   /* Text  */
   text-align: center;
-  font-size: 6vw;
+  font-size: 8vw;
   
   
 }
 
 .weight-label {
-  font-size: 4vw;
+  font-size: 200%;
   text-align: center;
 }
 
@@ -59,14 +65,22 @@ body {
   margin: 0;
 }
 
-/* .rep-container {
+.rep-container {
+  margin: auto;
+  margin-top: 2vw;
+  padding: 2vw;
+  border-style: solid;
+  border-radius: 1vw;
   
-} */
+  width: 80vw;
+  text-align: center;
+  background-color: #746D75;
+}
 
 .rep-count {
   
   color: black;
-  font-size: 80px;
+  font-size: 400%;
   text-align: center;
 }
 
@@ -82,11 +96,18 @@ body {
 }
 
 .rep-label {
-  font-size: 4vw;
+  font-size: 200%;
   text-align: center;
 }
 
+.orm-label {
+  font-size: 400%;
+}
 
+.orm-label-weight {
+  text-align: center;
+  font-size: 500%;
+}
 
 
 

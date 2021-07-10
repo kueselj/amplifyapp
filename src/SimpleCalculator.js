@@ -65,7 +65,7 @@ function SimpleCalculator() {
                         {repCount}
                     </div>
                     <div>
-                        <input class="rep-input" defaultValue = "1" type="range" min="1" max="20" onChange={event => updateRepCount(event.target.value)}></input>  
+                        <input class="rep-input" defaultValue = "0" type="range" min="0" max="20" onChange={event => updateRepCount(event.target.value)}></input>  
                     </div>
                     <div class = "rep-label">
                         Reps Performed
@@ -73,8 +73,11 @@ function SimpleCalculator() {
                 </div>
                 
             </div>
-            <div class = "orm-label">
-                    One Rep Max: {oneRepMax} {thing}
+                <div class = "orm-label">
+                    One Rep Max:
+                </div> 
+                <div class = "orm-label-weight">
+                    {oneRepMax} {thing}
                 </div>  
          </div>
     );
