@@ -71,14 +71,15 @@ function SimpleCalculator() {
                         Reps Performed
                     </div>
                 </div>
-                
-            </div>
                 <div class = "orm-label">
                     One Rep Max:
                 </div> 
                 <div class = "orm-label-weight">
                     {oneRepMax} {thing}
                 </div>  
+                
+            </div>
+                
          </div>
     );
   }
