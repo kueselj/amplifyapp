@@ -4,7 +4,7 @@ import React from "react";
 import { useState } from 'react';
 import "./Home.scss"
 import calculateOneRepMax from "../../Calculator/CalculateOneRepMax";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 
@@ -13,9 +13,7 @@ import {Link} from "react-router-dom"
 const Home = () => {
 
 
-    // var elt = document.getElementById('calculator');
-    // var calculator = Desmos.GraphingCalculator(elt);
-    // calculator.setExpression({ id: 'graph1', latex: 'y=x^2' });
+
 
 
     const [unit, setUnit] = useState('(Lbs)');
@@ -62,13 +60,10 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="advanced__link">
-                        <Link  to="/AdvancedCalculator">Try Out The Advanced Calculator</Link>
+                        <Link to="/AdvancedCalculator">Try Out The Advanced Calculator</Link>
                     </div>
                 </div>
-
             </div>
-            <script src="https://www.desmos.com/api/v1.6/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
-            <div id="calculator"></div>
         </div>
     )
 }

@@ -59,7 +59,7 @@ const AdvancedCalculator = () => {
                             {output}
                         </div>
                         <div className="orm__label">
-                            For {desiredReps} Rep(s) You can Do {output} {unit}
+                            For {desiredReps} Rep(s) You Can Do {output} {unit}
                         </div>
                     </div>
                     <div className = "simple__link">
