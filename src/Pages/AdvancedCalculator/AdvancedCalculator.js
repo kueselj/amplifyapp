@@ -6,6 +6,8 @@ import "./AdvancedCalculator.scss"
 import calculateOneRepMax from "../../Calculator/CalculateOneRepMax";
 import calculateWeightGivenReps from "../../Calculator/CalculateWeightGivenReps";
 
+import {Link} from "react-router-dom"
+
 
 const AdvancedCalculator = () => {
 
@@ -60,8 +62,8 @@ const AdvancedCalculator = () => {
                             For {desiredReps} Rep(s) You can Do {output} {unit}
                         </div>
                     </div>
-                    <div className = "advanced__link">
-                        <a href="/">Back to One-Rep-Max Calculator</a>
+                    <div className = "simple__link">
+                        <Link to="/">Back to One-Rep-Max Calculator</Link>
                     </div>
                 </div>
             </div>
