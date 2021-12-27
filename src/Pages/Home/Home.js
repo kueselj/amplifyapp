@@ -42,8 +42,8 @@ const Home = () => {
                             Kgs
                         </label>
                     </div>
-                    <SliderInputBox label="Weight Lifted" default="0" limit="750" step="5" unit={unit} c={weight => updateWeightLifted(weight)} />
-                    <SliderInputBox label="Reps Performed" default="1" limit="20" step="1" c={rep => updateRepCount(rep)} />
+                    <SliderInputBox label="Weight Lifted" default="0" limit="750" step="5" min="0" unit={unit} c={weight => updateWeightLifted(weight)} />
+                    <SliderInputBox label="Reps Performed" default="1" limit="20" step="1"  min="1" c={rep => updateRepCount(rep)} />
                     <div className="orm__container">
                         <div className="orm__number">
                             {oneRepMax}
@@ -51,6 +51,9 @@ const Home = () => {
                         <div className="orm__label">
                             Estimated One-Rep-Max
                         </div>
+                    </div>
+                    <div className = "advanced__link">
+                        <a href="/AdvancedCalculator">Try out the Advanced Calculator!</a>
                     </div>
                 </div>
             </div>
