@@ -1,26 +1,16 @@
 import SliderInputBox from "../../Components/SliderInputBox/SliderInputBox";
 
-import React from "react";
 import { useState } from 'react';
 import "./Home.scss"
 import calculateOneRepMax from "../../Calculator/CalculateOneRepMax";
 import { Link } from "react-router-dom"
 
-
-
-
-
 const Home = () => {
-
-
-
-
 
     const [unit, setUnit] = useState('(Lbs)');
     const [weightLifted, setWeightLifted] = useState(0);
     const [repCount, setRepCount] = useState(1);
     const [oneRepMax, setOneRepMax] = useState(1);
-
 
     function updateWeightLifted(weight) {
         setWeightLifted(weight)
