@@ -13,6 +13,9 @@ function App() {
         <Route exact path="/AdvancedCalculator" element={<AdvancedCalculator />}/>
       </Routes>
     </Router>
+    <div className="extra">
+
+    </div>
     </div>
   );
 }
