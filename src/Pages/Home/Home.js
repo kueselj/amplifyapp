@@ -23,6 +23,7 @@ const Home = () => {
     }
 
     return (
+        <div>
         <div className="home__container">
             <div className="home__title">
                 BenchCalculator.com
@@ -55,6 +56,14 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <div className="warning__wrapper">
+            <div className="warning">
+                <div className="warning__text">
+                    WARNING: This is just and estimate and may not be true to your actual One-Rep-Max. Always Bench with cation. Use a spotter, especially when attempting heavy loads.
+                </div>
+            </div>
+        </div>
+    </div>
     )
 }
 

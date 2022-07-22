@@ -1,6 +1,27 @@
 .home__container {
-    height: 100vh;
+    height: 95vh;
     min-width: 300px;
+}
+
+.warning__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background-color: red;
+  
+  
+}
+
+.warning {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  
+}
+
+.warning__text {
+  font-size: 10%;
 }
 
 .home__title {
