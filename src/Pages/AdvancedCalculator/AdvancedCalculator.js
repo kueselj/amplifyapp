@@ -51,9 +51,9 @@ const AdvancedCalculator = () => {
                             Kgs
                         </label>
                     </div>
-                    <SliderInputBox label="Weight Lifted" default="0" min = "0" limit="750" step="5" unit={unit} c={weight => updateWeightLifted(weight)} />
-                    <SliderInputBox label="Reps Performed" default="1" min="1" limit="20" step="1" c={rep => updateRepCount(rep)} />
-                    <SliderInputBox label="Reps Desired" default="1" min="1" limit="20" step="1" c={desiredReps => updateDesiredReps(desiredReps)} />
+                    <SliderInputBox label="Weight Lifted" default="0" min = "0" limit="500" step="5" unit={unit} c={weight => updateWeightLifted(weight)} />
+                    <SliderInputBox label="Reps Performed" default="1" min="1" limit="15" step="1" c={rep => updateRepCount(rep)} />
+                    <SliderInputBox label="Reps Desired" default="1" min="1" limit="15" step="1" c={desiredReps => updateDesiredReps(desiredReps)} />
                     <div className="orm__container">
                         <div className="orm__number">
                             {output}

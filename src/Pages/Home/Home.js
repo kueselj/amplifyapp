@@ -32,7 +32,7 @@ const Home = () => {
                 <div className="calculator__container">
                     <div className="units_container">
                         <label className="weight__type__container">
-                            <input className="rad" type="radio" name="radio" checked={unit == "(Lbs)"} onChange={() => setUnit("(Lbs)")} />
+                            <input className="rad" type="radio" name="radio" checked={unit === "(Lbs)"} onChange={() => setUnit("(Lbs)")} />
                             Lbs
                         </label>
                         <label className="weight__type__container">
@@ -40,8 +40,8 @@ const Home = () => {
                             Kgs
                         </label>
                     </div>
-                    <SliderInputBox label="Weight Lifted" default="0" limit="750" step="5" min="0" unit={unit} c={weight => updateWeightLifted(weight)} />
-                    <SliderInputBox label="Reps Performed" default="1" limit="20" step="1" min="1" c={rep => updateRepCount(rep)} />
+                    <SliderInputBox label="Weight Lifted" default="0" limit="500" step="5" min="0" unit={unit} c={weight => updateWeightLifted(weight)} />
+                    <SliderInputBox label="Reps Performed" default="1" limit="15" step="1" min="1" c={rep => updateRepCount(rep)} />
                     <div className="orm__container">
                         <div className="orm__number">
                             {oneRepMax}
